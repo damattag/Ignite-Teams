@@ -35,6 +35,7 @@ export function Groups() {
             message="Você ainda não possui turmas."
           />
         )}
+        showsVerticalScrollIndicator={false}
       />
 
       <Button
