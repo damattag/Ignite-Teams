@@ -10,5 +10,7 @@ export const Container = styled.View`
 export const EmptyListText = styled.Text`
   text-align: center;
 
-  font-size: ${theme.font_size};
+  font-size: ${theme.font_size.sm}px;
+  font-family: ${theme.font_family.regular};
+  color: ${theme.color.gray_300};
 `; 

@@ -17,7 +17,7 @@ export const Title = styled.Text`
 export const SubTitle = styled.Text`
   text-align: center;
 
-  font-size: ${theme.font_size.xl}px;
+  font-size: ${theme.font_size.lg}px;
   font-family: ${theme.font_family.regular}px;
   color: ${theme.color.gray_300};
 `;

@@ -6,7 +6,7 @@ export default {
     green_500: '#00B37E',
 
     red: '#F75A68',
-    dark: '#AA2834',
+    red_dark: '#AA2834',
 
     gray_700: '#121214',
     gray_600: '#202024',
