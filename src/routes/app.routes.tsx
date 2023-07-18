@@ -10,7 +10,8 @@ export function AppRoutes() {
   return (
     <Navigator
       screenOptions={{
-        headerShown: false
+        headerShown: false,
+        animation: 'fade_from_bottom',
       }}
     >
       <Screen
