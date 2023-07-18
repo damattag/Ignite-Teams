@@ -2,12 +2,31 @@ import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
 
 import { Container } from './styles';
+import { GroupCard } from '@components/GroupCard';
+
+import { useState } from 'react';
+import { FlatList } from 'react-native';
 
 export function Groups() {
+  const [groups, setGroups] = useState(['Galera da Rocket'])
   return (
     <Container>
       <Header />
-      <Highlight title="Grupos" subtitle="Aqui você pode ver todos os grupos que você participa." />
+
+      <Highlight
+        title="Turmas"
+        subtitle="Jogue com a sua turma."
+      />
+
+      <FlatList
+        data={groups}
+        keyExtractor={item => item}
+        renderItem={({ item }) => (
+          <GroupCard
+            title={item}
+          />
+        )}
+      />
     </Container>
   );
 }

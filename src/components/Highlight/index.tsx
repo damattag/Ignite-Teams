@@ -11,6 +11,7 @@ export function Highlight({ title, subtitle }: HighlightProps) {
       <Title>
         {title}
       </Title>
+
       <SubTitle>
         {subtitle}
       </SubTitle>
